@@ -1,0 +1,30 @@
+system calls are available as assembly language instructions. They are also included in the manuals
+used by the assembly level programmers.
+System calls are usually made when a process in user mode requires access to a resource. Then it
+requests the kernel to provide the resource via a system call.
+Types of System Calls
+Process Control
+Types of System Calls
+Process Control
+These system calls deal with processes such as process creation, process termination etc.
+File Management
+These system calls are responsible for file manipulation such as creating a file, reading a file, writing
+into a file etc.
+Device Management
+These system calls are responsible for device manipulation such as reading from device buffers,
+writing into device buffers etc.
+Information Maintenance
+These system calls handle information and its transfer between the operating system and the user
+program.
+Communication
+These system calls are useful for interprocess communication. They also deal with creating and
+deleting a communication connection.
+Protection
+by the operating system. This may include page tables, segment tables, etc.
+7. Open files list : This information includes the list of files opened for a process.
+4. Define System Calls and various types of system calls.
+Ans. The interface between a process and an operating system is provided by system calls. In general,
+operating system. In MS-DOS, application programs are able to access the basic I/O routines. These
+types of operating systems cause the entire system to crash if one of the user programs fails.
+2. Layered structure
+An OS can be broken into pieces and retain much more control over the system. In this structure, the
