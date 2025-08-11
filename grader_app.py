@@ -4,7 +4,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_community.chat_models import ChatOllama
 
-# Initialize LLM
+
 llm = ChatOllama(model="llama3", temperature=0.6, stop=["<|eot_id|>"])
 
 
@@ -62,7 +62,7 @@ Respond with practical tips.
 """)
 feedback_chain = LLMChain(llm=llm, prompt=FEEDBACK_PROMPT)
 
-# Streamlit UI
+
 st.title("Student Grader")
 
 question = st.text_input("Enter Question")
